@@ -1,4 +1,5 @@
 {
+  "private": "true",
   "title": "Getting started with Elasticsearch",
   "description": "Explore how  REST API of Elasticsearch can be used store and search data.",
   "difficulty": "Beginner",
