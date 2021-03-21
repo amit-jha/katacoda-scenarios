@@ -1,4 +1,4 @@
-## Step 2 - Store Documents
+## Store/Index Documents
 Now cluster is up and running, We will now insert documents using REST API.
 
 `curl -X PUT "localhost:9200/user/_doc/1?pretty" -H 'Content-Type: application/json' -d'

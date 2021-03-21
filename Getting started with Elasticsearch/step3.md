@@ -1,4 +1,4 @@
-## Step 3 - Search documents
+## Search documents
 
 Retrieve all documents 
 
