@@ -1,5 +1,12 @@
-## Test Elasticsearch Setup. 
-To get started, we need to ensure that elasticsearch is up and running. To test run `curl localhost:9200`{{execute}} 
+## Elasticsearch Setup. 
+To get startet, First elasticsearch should be installed. In scenario, we'll be setting up Elaticsearch container. Lets begin the test drive.
+
+### Setup Task
+`docker run --name es -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.11.2`{{execute}}
+
+Once Elasticsearch is setup, Lets validate the setup.
+### Validate Task
+`curl localhost:9200`{{execute}} 
 
 You should see output identical to following 
 
